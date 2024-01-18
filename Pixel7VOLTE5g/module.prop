@@ -1,0 +1,6 @@
+id=volte-5g-p7
+name=Enable 5G and VoLTE on Pixel 7 Series
+version=1
+versionCode=1
+author=Kangarroar
+description=This module will enable 5G/VoLTE on Pixel 7a, Pixel 7 and Pixel 7 Pro in unsupported countries.
