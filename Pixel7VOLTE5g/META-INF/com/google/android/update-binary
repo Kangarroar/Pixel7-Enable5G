@@ -16,6 +16,7 @@ require_new_magisk() {
   exit 1
 }
 
+
 #########################
 # Load util_functions.sh
 #########################
@@ -29,21 +30,6 @@ mount /data 2>/dev/null
 . /data/adb/magisk/util_functions.sh
 [ $MAGISK_VER_CODE -lt 20400 ] && require_new_magisk
 
-ui_print "*******************************"
-ui_print " Module made by Kangarroar"
-ui_print " Based of Foobar66 works.    "
-ui_print "*******************************"
-ui_print ""
-ui_print ""
-ui_print "Installing Module..."
 install_module
-ui_print ""
-ui_print "Module installed!"
-ui_print ""
-ui_print "Please reboot your phone to apply the changes"
-ui_print "You may need to wait some minutes to see 5G"
-ui_print "If not, you may wanna try enabling and disabling"
-ui_print "airplane mode"
-ui_print ""
-ui_print "*******************************"
+
 exit 0
