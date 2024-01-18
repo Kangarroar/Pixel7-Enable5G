@@ -1,4 +1,4 @@
-# Pixel-7-7Pro-5G-VoLTE-Module
+# Pixel 7 & 7Pro 5G/VoLTE Module
 
 Since Google disables 5G on phones in "unsupported countries" This module aims to enable 5G capabilities and VoLTE on your Pixel 7 & 7 Pro
 
